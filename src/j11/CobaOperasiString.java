@@ -5,6 +5,8 @@
  */
 package j11;
 
+import java.util.Locale;
+
 /**
  *
  * @author Ilham
@@ -13,6 +15,8 @@ public class CobaOperasiString {
     public static void main(String[] args) {
         String identitas = "Ilham Khalis Putra Agatha/ X RPL 2/ 17";
         System.out.println("Identitas : " + identitas);
+        
+        
     }
     
 }
