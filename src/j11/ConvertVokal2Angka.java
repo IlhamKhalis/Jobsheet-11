@@ -47,5 +47,14 @@ public class ConvertVokal2Angka {
     private static void tampilHasil(String convert) {
         System.out.println("Kalimat Alay Angka : " + convert);
     }
+    public static void main(String[] args) {
+        String identitas = "Ilham Khalis Putra Agatha/ XRPL2/ 17";
+        
+        tampilJudul(identitas);
+        String kalimat = tampilInput();
+        String convert = vocal2Angka(kalimat);
+        tampilPerkata(kalimat, convert);
+        tampilHasil(convert);
     
+}
 }
