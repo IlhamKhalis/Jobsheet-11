@@ -16,6 +16,16 @@ public class CobaOperasiString {
         String identitas = "Ilham Khalis Putra Agatha/ X RPL 2/ 17";
         System.out.println("Identitas : " + identitas);
         
+        String x = "Operasi";
+        System.out.println("isi variabel  x : " + x);
+        System.out.println("\""+ x + "\" panjang karakter = "+ x.length());
+        
+        System.out.println("x adalah kosong : " + x.isEmpty());
+        
+        String y = "";
+        System.out.println("isi variabel y : "+ y);
+        System.out.println("y adalah kosong : " + y.isEmpty());
+        
         
     }
     
